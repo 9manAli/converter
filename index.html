@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        border-radius: 15px;
+        margin: 5px;
+        padding: 5px;
+        width: 100px;
+        background-color: rgb(110, 108, 255);
+      }
+      .active {
+        background-color: rgb(47, 255, 99);
+        border: 5px groove grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button id="pound" onclick="addfinc(this)">pound</button>
+      <button id="kilo" onclick="addfinc(this)">kilogram</button>
+    </div>
+    <div>
+      <input type="number" id="value" />
+      <button onclick="convrt()">Convert</button>
+    </div>
+<div>
+    <p id="result">
+    </p>
+</div>
+    <script src="newpro.js"></script>
+  </body>
+</html>
