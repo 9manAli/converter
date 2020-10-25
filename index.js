@@ -3,7 +3,7 @@ var pound = document.getElementById("pound");
 var int = document.getElementById("value");
 var btn = document.querySelectorAll("button");
 var result = document.getElementById("result");
-var kilovalue = 2.20462;
+var kilovalue = 2.2046;
 var poundvalue = 0.453592;
 var c;
 var d;
