@@ -34,3 +34,6 @@ function convrt() {
   var ans = c * int.value;
   result.innerHTML += ans + " " + d;
 }
+// const a = (a,b) => x+y;
+// a(2,3)
+// console.log(a);
